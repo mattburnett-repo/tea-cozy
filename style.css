@@ -36,37 +36,20 @@ nav a {
     color: seashell;
 }
 
+/* ^^^ end nav / header ^^^ */
+
 section {
     text-align: center;
 }
 
-/* .container {
-    position: relative;
-    width: 250px;
-} */
-
-.mission .container img {
-    background-position: center;
-    width: 1200px;
-    height: 700px;
-    /* margin: 10px; */
+.mission {
+    display: flex;
+    justify-content: center;
 }
 
-/* .container .overlayText {
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 10px;
-    border: 1px solid #FFF;
-    width: 218px;
-    color: #FFF;
-    margin: 5px;
-} */
-
-/* */
 .overlayText {
     background-color: black;
-     width: 1200px; 
+    width: 1200px; 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -74,10 +57,37 @@ section {
 } 
 
 .featuredTea {
-    background-color: pink;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    top: 30px;
+    width: 1000px;
+    margin-top: 75px;
+    /* align-items: center;
+    align-content: center; */
+    flex-wrap: wrap;
+    border: 1px solid pink;
+}
+
+.teaHeader {
+    text-align: center;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea h4 {
+    margin-top: 10px;
 }
 
 .locations {
+    display: flex;
+    justify-content: center;
+
     background-color: gray;
 }
 
