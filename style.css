@@ -116,9 +116,8 @@ section {
 .locationsContainer {
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     position: relative;
-    display: flex;
     justify-content: center;
     align-items: center;
     /* height: 200px; */
