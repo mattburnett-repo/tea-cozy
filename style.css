@@ -11,8 +11,8 @@ html {
     background-color: black;
     opacity: 0.9;
 
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -20,10 +20,9 @@ nav {
     position: fixed;
     width: 100%;  /* i'm assuming full width */
     z-index: 1;
-
     top: 0;
     margin: 0 auto;
-    /* background-color: green; change to desired color */
+    background-color: black; /* change to desired color */
 }
 
 nav img {
